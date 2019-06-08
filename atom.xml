@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qwop.github.io</id>
     <title>qwop</title>
-    <updated>2019-06-02T08:38:40.590Z</updated>
+    <updated>2019-06-08T07:03:09.533Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qwop.github.io"/>
     <link rel="self" href="https://qwop.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://qwop.github.io/images/avatar.png</logo>
     <icon>https://qwop.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, qwop</rights>
+    <entry>
+        <title type="html"><![CDATA[QTTabBar]]></title>
+        <id>https://qwop.github.io/post/qttabbar</id>
+        <link href="https://qwop.github.io/post/qttabbar">
+        </link>
+        <updated>2019-06-08T07:01:17.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[面试 java项目经理常见问题 ]]></title>
         <id>https://qwop.github.io/post/mian-shi-java-xiang-mu-jing-li-chang-jian-wen-ti</id>

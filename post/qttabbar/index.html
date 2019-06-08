@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | qwop</title>
+<title>QTTabBar | qwop</title>
 <meta name="description" content="春风化雨细如丝">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -15,6 +15,12 @@
 <link rel="stylesheet" href="https://qwop.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
@@ -23,6 +29,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://qwop.github.io">qwop</a></h3>
@@ -76,56 +83,66 @@
   </div>
 </nav>
 
-    
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
+          <article class="article">
+            <h1>QTTabBar</h1>
+            <p class="article-meta">
+              2019-06-08
+              
+            </p>
+            
+            <div class="post-content">
+              <h1 id="软件介绍">软件介绍</h1>
+<p>QTTabBar是一款可以让你在Windows资源管理器中使用Tab多标签功能的小工具。从此以后工作时不再遍布文件夹窗口，还有给力的文件夹预览功能，大大提高了你工作的效率。就像IE 7和Firefox、Opera那样的。QTTabBar还提供了一些功能插件，如：文件操作工具、树型目录、显示状态栏等等。</p>
+<h1 id="下载地址">下载地址</h1>
+<ul>
+<li>https://github.com/indiff/qttabbar/releases/download/1.1/QTTabBar.Setup_zh-CN.msi</li>
+<li>https://github.com/indiff/qttabbar/releases/download/1.1/QTTabBar.Setup_en-US.msi</li>
+</ul>
+<h1 id="使用方法">使用方法</h1>
+<ul>
+<li>先安装QTTabBar</li>
+<li>资源管理器中，组织—&gt;布局—&gt;菜单栏</li>
+<li>右键菜单栏右方的空白地区—&gt;勾选QTTabBar等工具栏—&gt;按Alt+M—&gt;重启explorer或重启计算机</li>
+</ul>
+<h1 id="编译">编译</h1>
+<ul>
+<li>安装 wix311.exe</li>
+<li>安装 visual studio 2010</li>
+<li>安装插件 NotifyPropertyWeaverVsPackage.vsix</li>
+<li>Qttabbar项目 添加引用 Ricciolo.Controls.TreeListView, 路径 QTTabBar\Resources\Ricciolo.Controls.TreeListView.dll</li>
+</ul>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://qwop.github.io/post/mian-shi-java-xiang-mu-jing-li-chang-jian-wen-ti">
+                <h3 class="post-title">
+                  面试 java项目经理常见问题 
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
           
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
-            
-              <h3 class="year" data-aos-delay="500">2019</h3>
-              
-                
-                  <article class="post">
-                    <a href="https://qwop.github.io/post/qttabbar">
-                      <h4 class="post-title">
-                        QTTabBar
-                      </h4>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="https://qwop.github.io/post/mian-shi-java-xiang-mu-jing-li-chang-jian-wen-ti">
-                      <h4 class="post-title">
-                        面试 java项目经理常见问题 
-                      </h4>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="https://qwop.github.io/post/linux-biao-zhun-mu-lu-jie-gou">
-                      <h4 class="post-title">
-                        Linux 标准目录结构
-                      </h4>
-                    </a>
-                  </article>
-                
-              
-            
-          </div>
-        </div>
-        <div class="row flex-edges">
-  
-  
-</div>
-
+          
+        
       </div>
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://qwop.github.io/images/avatar.png?v=1559977329488" class="no-responsive avatar">
@@ -178,7 +195,7 @@
     </div>
     <div class="row">
       
-        <a href="https://qwop.github.io/tag/HC2vQd2nP" class="badge ">
+        <a href="https://qwop.github.io/tag/HC2vQd2nP" class="badge warning">
           Linux
         </a>
       
@@ -190,6 +207,8 @@
 </div>
 
 
+    </div>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 <script type="application/javascript">
@@ -199,6 +218,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'bb77aa9de27b2df0b5ba',
+        clientSecret: 'b71691df10cb37b7e5d6b25f23994f8e3d5a5ece',
+        repo: 'qwop.github.io',
+        owner: 'qwop',
+        admin: ['qwop'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
