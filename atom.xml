@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qwop.github.io</id>
     <title>qwop</title>
-    <updated>2019-06-08T07:07:44.578Z</updated>
+    <updated>2019-06-08T09:32:48.326Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qwop.github.io"/>
     <link rel="self" href="https://qwop.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://qwop.github.io/images/avatar.png</logo>
     <icon>https://qwop.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, qwop</rights>
+    <entry>
+        <title type="html"><![CDATA[代码生成器的比较]]></title>
+        <id>https://qwop.github.io/post/dai-ma-sheng-cheng-qi-de-bi-jiao</id>
+        <link href="https://qwop.github.io/post/dai-ma-sheng-cheng-qi-de-bi-jiao">
+        </link>
+        <updated>2019-06-08T07:08:22.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[QTTabBar]]></title>
         <id>https://qwop.github.io/post/qttabbar</id>
